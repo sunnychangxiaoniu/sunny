@@ -1,0 +1,75 @@
+/*
+Theme Name: sunny
+Theme URI: http://www.changxiaoniu.com
+Description: It's a first blog create by sunny畅小牛
+Version: 1.0
+Author: sunny畅小牛
+Author URI: http://www.changxiaoniu.com
+Tags: custom header, fixed width, two columns, widgets
+*/
+
+/* Global Styles */
+html,body,div,h1,h2,ul,a,footer{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	outline:none;
+	text-decoration: none;
+}
+body{
+	height: 800px;
+	width: 100%;
+}
+.container_1{
+	width: 100%;
+}
+.container_2{
+	height: 50px;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+h1{
+	width:30%;
+	float: left;
+}
+h1 a{
+	font-family: "幼圆";
+	font-size: 40px;
+}	
+ul{
+	width: 70%;
+	float: right;
+	text-align: center;
+	background-color: #48BD1F;
+	border-radius: 50px;
+}
+ul li{
+	display: inline-block;
+	float: left;
+	line-height: 50px;
+	width: 16.666%;
+	/*box-sizing:border-box;*/
+}
+ul li:hover{
+	background-color: #EFF065;
+	height: 100%;
+	color: black;
+	border-radius: 50px;
+}
+ul li a{
+	/*padding: 0 20px;*/
+	color: white;
+	font-size: 18px;
+	/*height: 50px;*/
+}
+.footer{
+	background-color: #4DB87F;
+	line-height: 40px;
+	text-align: center;
+}
+
